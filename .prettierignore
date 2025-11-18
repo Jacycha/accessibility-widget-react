@@ -1,0 +1,7 @@
+**/*.json
+*.json
+composer.json
+**/*.js
+.prettierrc
+*.php
+**/*.php

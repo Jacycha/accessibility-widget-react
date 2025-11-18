@@ -1,0 +1,9 @@
+.idea/
+node_modules/
+.DS_Store
+.env
+.npmrc
+package-lock.json
+build
+dist
+tsconfig.tsbuildinfo
