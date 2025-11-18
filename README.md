@@ -16,7 +16,7 @@ yarn add @dockcodes/accessibility-widget-react
 Wrap your app with the provider
 ```tsx
 import React, { useEffect } from "react"
-import { AccessibilityProvider, useAccessibility } from "./AccessibilityWrapper"
+import { AccessibilityProvider, useAccessibility } from "@dockcodes/accessibility-widget-react"
 
 const Demo = () => {
     const { accessibility, ready } = useAccessibility()
