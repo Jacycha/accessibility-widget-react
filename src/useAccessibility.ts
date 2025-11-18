@@ -7,5 +7,5 @@ export const useAccessibility = () => {
         throw new Error("Accessibility is not available. Wrap your app with <AccessibilityProvider>.")
     }
 
-    return {...accessibility, ready}
+    return {accessibility, ready}
 }
